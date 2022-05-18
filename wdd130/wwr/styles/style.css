@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Roboto+Slab:wght@300&display=swap');
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +10,7 @@ nav a {
     text-align: center;
     color: #F8F4E3;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -28,10 +32,15 @@ main section {
 
 body {
     background-color: white;
+    font-family: "Roboto Slab", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: #594157;
+    font-family: "Roboto Slab", Helvetica, sans-serif;
 }
 
 nav a:hover {
@@ -43,6 +52,10 @@ nav a:hover {
     background-color: #594157;
     color: #F8F4E3;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -52,14 +65,22 @@ nav a:hover {
 
 .msg {
     background-color: #594157;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #594157;
+    font-family: "Roboto Slab", Helvetica, sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title {
     color: #726DA8;
+    font-family: "Neucha", Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -68,10 +89,13 @@ h4 {
 
 .msg h2 {
     color: #F8F4E3;
+    font-family: "Neucha", Helvetica, sans-serif;
 }
 
 .msg p {
     color: #F8F4E3;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer h3 {
@@ -97,8 +121,33 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
     width: 100%;
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #594157;
+}
+
+main section img {
+    box-sizing: border-box;
 }
