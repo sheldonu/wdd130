@@ -1,0 +1,39 @@
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    background-color: grey;
+}
+
+.tart {
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 1000%;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.sweet {
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 1000%;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.cherries {
+    grid-column: 2;
+    margin: 0 auto;
+    grid-row: 2;
+    font-size: 600%;
+    color: darkred;
+    z-index: 1;
+}
+
+.img {
+    max-width: 100%;
+    grid-column: 1;
+    grid-row: 1/3;
+    background-color: white;
+    z-index: 0;
+}
