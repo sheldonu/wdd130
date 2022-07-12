@@ -45,7 +45,6 @@ footer {
     background-color: #ABDAE1;
     font-family: "Dancing Script", Helvetica, sans-serif;
     padding: 25px 50px;
-    margin-top: 2%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -243,5 +242,26 @@ footer .social img {
     color: black;
     font-size: xx-large;
     margin-top: 250px;
+    text-align: center;
+}
+
+.c-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    font-family: "Lora", "Helvetica", "sans-serif";
+}
+
+.c-top-img {
+    width: 100%;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.c-msg {
+    grid-column: 1/4;
+    grid-row: 1;
+    color: black;
+    font-size: xx-large;
     text-align: center;
 }
